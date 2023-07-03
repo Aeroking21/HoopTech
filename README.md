@@ -1,4 +1,16 @@
-# Code (Hardware)
+# HoopTech
+
+Introducing a personal basketball trainer that motivates your dribbling and movement. Fine Tune Your Routine With Precise Workout Stats
+HoopTech is a two part device designed to track your basketball training to optimize your performance! With state-of-the-art sensors, the app monitors your calories burnt, speed, and number of successful shots. One part of sensors is wrapped on the user, while the other is secured to the rim of the basketball hoop. 
+
+Track the number of shots you score in each training session, along with each one's accuracy. The second half of our device is placed on the rim of the basketball hoop and uses a proximity sensor to count the number of successful shots, while an accelerometer measures the size of the vibration on the basketball hoop.
+The cleaner your shot, the higher your accuracy score.
+With this device you can also view past training sessions and monitor progress!
+
+
+Monitor the number of calories you burn as you practise your dribbling and lay-ups! The device uses a pulse-rate sensor to calculate approximate calories burnt from your heart rate as you run around on the court.
+
+The device connected to the player includes an accelerometer which records your maximum acceleration on the court. Monitor your fastest accelerations to best improve your training routine for maximising progress!
 
 ## Sensors used and its respective library file:
 
@@ -8,13 +20,7 @@
 
 A buzzer (GPIO 10) and LED (GPIO 27) as outputs to indicate that the baskets have been made.
 
-All libraries have been implemented by using the I2C functions in the `smbus2` library as instructed.
-
-<br>
-
----
-
-<br>
+All libraries have been implemented by using the I2C functions in the `smbus2`.
 
 ## Handling multiple tasks concurrently
 
@@ -25,16 +31,11 @@ All libraries have been implemented by using the I2C functions in the `smbus2` l
   - Track maximum acceleration
   - Send data over MQTT (every 1s)
 
-<br>
-
----
-
-<br>
 
 ## Directory structure
 
 ```
-fsf20/hw branch
+
 │
 |--README.md
 |
@@ -48,11 +49,4 @@ fsf20/hw branch
 |--distanceTest.py      -> test code for time-of-flight sensor
 |--sound.py             -> test code for buzzer
 ```
-
-## Accelerometer Code
-
-- Commented out code def shakeCode() is the code to measure the vibrations of the basketball rim
-- Measures the average acceleration in specified time frame
-- Compares this to two thresholds to determine whether there is a lot or a little shaking and then defines the accuracy as A, B, or C (where A is no vibration)
-=======
 
