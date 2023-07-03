@@ -1,5 +1,8 @@
 # HoopTech
 
+
+<img src="screenshot.png" alt="alt text" style="width:250px;height:250px; border-radius:50%; margin-left:200px">
+
 Introducing a personal basketball trainer that motivates your dribbling and movement. Fine Tune Your Routine With Precise Workout Stats
 HoopTech is a two part device designed to track your basketball training to optimize your performance! With state-of-the-art sensors, the app monitors your calories burnt, speed, and number of successful shots. One part of sensors is wrapped on the user, while the other is secured to the rim of the basketball hoop. 
 
